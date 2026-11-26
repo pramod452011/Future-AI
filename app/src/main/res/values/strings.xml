@@ -1,0 +1,365 @@
+<resources>
+    <string name="app_name">Future AI</string>
+    <string name="cd_future_ai_logo">Future AI Robot Logo</string>
+    <string name="cd_back">वापस जाएँ</string>
+    <string name="cd_replay_welcome">Welcome Screen देखें</string>
+    <string name="cd_open_profile">प्रोफ़ाइल खोलें</string>
+    <string name="cd_new_chat">नई चैट शुरू करें</string>
+    <string name="cd_send_message">संदेश भेजें</string>
+    <string name="cd_copy_reply">उत्तर कॉपी करें</string>
+
+    <!-- Step 3: Welcome Screen -->
+    <string name="welcome_brand_title">FUTURE AI</string>
+    <string name="welcome_brand_tagline">आपका पर्सनल स्मार्ट AI असिस्टेंट</string>
+    <string name="welcome_skip">Skip</string>
+    <string name="welcome_next">आगे बढ़ें</string>
+    <string name="welcome_get_started">FUTURE AI शुरू करें</string>
+    <string name="welcome_slide_1_badge">SMART AI CHAT</string>
+    <string name="welcome_slide_1_title">Gemini AI से स्मार्ट बातचीत</string>
+    <string name="welcome_slide_1_desc">कोई भी सवाल पूछें, आइडिया लें और पल भर में सटीक जवाब पाएँ।</string>
+    <string name="welcome_slide_2_badge">CREATIVE STUDIO</string>
+    <string name="welcome_slide_2_title">इमेज, वीडियो, म्यूज़िक और लेखन</string>
+    <string name="welcome_slide_2_desc">AI से फोटो, कहानी, शायरी, स्क्रिप्ट और क्रिएटिव कंटेंट तैयार करें।</string>
+    <string name="welcome_slide_3_badge">VOICE &amp; TRANSLATE</string>
+    <string name="welcome_slide_3_title">अनुवाद, AI आवाज़ और सुरक्षित प्रोफ़ाइल</string>
+    <string name="welcome_slide_3_desc">किसी भी भाषा में अनुवाद करें, AI आवाज़ सुनें और अपनी हिस्ट्री सेव रखें।</string>
+
+    <!-- Step 4: Home Screen -->
+    <string name="home_greeting">नमस्ते, क्रिएटर</string>
+    <string name="home_subtitle">आज FUTURE AI से क्या बनाना चाहते हैं?</string>
+    <string name="home_hero_badge">GEMINI POWERED</string>
+    <string name="home_hero_title">AI Chat शुरू करें</string>
+    <string name="home_hero_desc">हिंदी या अंग्रेज़ी में कुछ भी पूछें — तुरंत स्मार्ट और सटीक उत्तर पाएँ।</string>
+    <string name="home_hero_cta">चैट खोलें</string>
+    <string name="home_section_tools">AI टूल्स और सुविधाएँ</string>
+    <string name="home_filter_all">सभी</string>
+    <string name="home_filter_creative">क्रिएटिव</string>
+    <string name="home_filter_language">भाषा और आवाज़</string>
+    <string name="home_filter_account">अकाउंट</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_chat">AI चैट</string>
+    <string name="nav_tools">टूल्स</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+
+    <!-- Tools Catalog -->
+    <string name="tool_chat_title">AI Chat</string>
+    <string name="tool_chat_desc">Gemini से स्मार्ट बातचीत करें</string>
+    <string name="tool_image_title">AI Image</string>
+    <string name="tool_image_desc">टेक्स्ट से शानदार फोटो बनाएँ</string>
+    <string name="tool_video_title">AI Video</string>
+    <string name="tool_video_desc">Google Veo से वीडियो बनाएँ</string>
+    <string name="tool_music_title">AI Music</string>
+    <string name="tool_music_desc">AI से संगीत और धुन बनाएँ</string>
+    <string name="tool_writer_title">Content Writer</string>
+    <string name="tool_writer_desc">कहानी, शायरी, गाने व स्क्रिप्ट</string>
+    <string name="tool_translator_title">AI Translator</string>
+    <string name="tool_translator_desc">तुरंत भाषाओं का अनुवाद करें</string>
+    <string name="tool_voice_title">AI Voice</string>
+    <string name="tool_voice_desc">टेक्स्ट को AI आवाज़ में बदलें</string>
+    <string name="tool_history_title">Chat History</string>
+    <string name="tool_history_desc">पुरानी चैट सुरक्षित देखें</string>
+    <string name="tool_premium_title">Premium Plan</string>
+    <string name="tool_premium_desc">प्रो फ़ीचर्स और प्लान जानकारी</string>
+    <string name="tool_settings_title">Settings</string>
+    <string name="tool_settings_desc">ऐप थीम और विकल्प बदलें</string>
+
+    <!-- Step tags & Tab summaries -->
+    <string name="step_tag_5">लाइव • Gemini AI</string>
+    <string name="step_tag_6">Step 6 में जुड़ेगा</string>
+    <string name="step_tag_8">Step 8 में जुड़ेगा</string>
+
+    <string name="tab_chat_title">AI Chat केंद्र</string>
+    <string name="tab_chat_desc">Gemini से सीधे बातचीत करें।</string>
+    <string name="tab_chat_open_detail">AI Chat खोलें</string>
+
+    <string name="tab_profile_title">यूज़र प्रोफ़ाइल और अकाउंट</string>
+    <string name="tab_profile_desc">यहाँ Step 8 में Google Login, आपकी प्रोफ़ाइल, Chat History, Premium और Settings जुड़ेंगे।</string>
+    <string name="tab_profile_replay_welcome">Welcome Screen फिर से देखें</string>
+
+    <!-- Tool Detail Preview Screen -->
+    <string name="tool_detail_ready_note">यह मॉड्यूल आपकी Home Screen से सफलतापूर्वक जुड़ चुका है। अगले Steps में इसमें असली AI और फीचर्स जोड़े जाएँगे।</string>
+    <string name="tool_detail_back_home">होम स्क्रीन पर वापस जाएँ</string>
+
+    <!-- Step 5: Live Gemini AI Chat Screen -->
+    <string name="chat_screen_title">FUTURE AI Chat</string>
+    <string name="chat_model_badge">Gemini 3.8 Flash • Live</string>
+    <string name="chat_empty_title">नमस्ते! मैं FUTURE AI हूँ</string>
+    <string name="chat_empty_subtitle">नीचे कोई भी सवाल लिखें या किसी सुझाव पर टैप करके Gemini से बातचीत शुरू करें।</string>
+    <string name="chat_prompt_1">एक शानदार मोटिवेशनल शायरी लिखो</string>
+    <string name="chat_prompt_2">AI क्या है? बिल्कुल आसान हिंदी में समझाओ</string>
+    <string name="chat_prompt_3">YouTube Shorts के लिए 3 मजेदार आइडिया दो</string>
+    <string name="chat_prompt_4">आज का समय बेहतर इस्तेमाल करने के 5 टिप्स दो</string>
+    <string name="chat_input_placeholder">FUTURE AI से कुछ भी पूछें…</string>
+    <string name="chat_thinking">FUTURE AI सोच रहा है…</string>
+    <string name="chat_copy">कॉपी करें</string>
+    <string name="chat_copied_message">उत्तर कॉपी हो गया!</string>
+    <string name="chat_retry">दोबारा प्रयास</string>
+
+    <!-- Step 6.1: AI Content Writer -->
+    <string name="writer_screen_title">AI Content Writer</string>
+    <string name="writer_screen_subtitle">कहानी, शायरी, गाने और वीडियो स्क्रिप्ट</string>
+    <string name="writer_label_format">क्या लिखवाना है?</string>
+    <string name="writer_label_tone">अंदाज़ (Tone)</string>
+    <string name="writer_label_language">भाषा (Language)</string>
+    <string name="writer_format_story">कहानी</string>
+    <string name="writer_format_shayari">शायरी</string>
+    <string name="writer_format_song">गाना</string>
+    <string name="writer_format_script">स्क्रिप्ट</string>
+    <string name="writer_tone_motivational">मोटिवेशनल</string>
+    <string name="writer_tone_emotional">इमोशनल</string>
+    <string name="writer_tone_romantic">रोमांटिक</string>
+    <string name="writer_tone_funny">मजेदार</string>
+    <string name="writer_lang_hindi">हिंदी</string>
+    <string name="writer_lang_hinglish">Hinglish</string>
+    <string name="writer_lang_english">English</string>
+    <string name="writer_topic_label">अपना विषय लिखें</string>
+    <string name="writer_topic_placeholder">उदाहरण: मेहनत और सफलता पर 4 लाइन की शायरी…</string>
+    <string name="writer_topic_1">सपनों और मेहनत पर शायरी</string>
+    <string name="writer_topic_2">दोस्ती पर प्यारी कहानी</string>
+    <string name="writer_topic_3">AI के भविष्य पर YouTube Shorts स्क्रिप्ट</string>
+    <string name="writer_generate_button">कंटेंट लिखें</string>
+    <string name="writer_generating">FUTURE AI लिख रहा है…</string>
+    <string name="writer_result_heading">आपका तैयार कंटेंट</string>
+    <string name="writer_share">शेयर करें</string>
+    <string name="writer_share_chooser">FUTURE AI कंटेंट शेयर करें</string>
+    <string name="writer_copied_toast">कंटेंट कॉपी हो गया!</string>
+
+    <!-- Step 6.2: AI Translator -->
+    <string name="cd_swap_languages">भाषाएँ बदलें</string>
+    <string name="cd_clear_text">टेक्स्ट साफ करें</string>
+    <string name="translator_screen_title">AI Translator</string>
+    <string name="translator_screen_subtitle">13+ भारतीय और अंतरराष्ट्रीय भाषाएँ</string>
+    <string name="translator_input_label">यहाँ टेक्स्ट लिखें</string>
+    <string name="translator_input_placeholder">अनुवाद के लिए कोई भी वाक्य लिखें…</string>
+    <string name="translator_sample_1">नमस्ते, आप कैसे हैं? आज का दिन बहुत सुंदर है।</string>
+    <string name="translator_sample_2">Welcome to Future AI, your smart personal assistant.</string>
+    <string name="translator_sample_3">मैं अपना नया AI ऐप बना रहा हूँ।</string>
+    <string name="translator_action_button">अनुवाद करें</string>
+    <string name="translator_translating">अनुवाद हो रहा है…</string>
+    <string name="translator_copied_toast">अनुवाद कॉपी हो गया!</string>
+    <string name="translator_share_chooser">अनुवाद शेयर करें</string>
+
+    <!-- Step 6.3: AI Voice -->
+    <string name="voice_screen_title">AI Voice Studio</string>
+    <string name="voice_screen_subtitle">Google Text-to-Speech • लाइव आवाज़</string>
+    <string name="voice_status_ready">आवाज़ तैयार है</string>
+    <string name="voice_status_loading">वॉइस इंजन लोड हो रहा है…</string>
+    <string name="voice_status_speaking">FUTURE AI बोल रहा है…</string>
+    <string name="voice_label_language">आवाज़ की भाषा चुनें</string>
+    <string name="voice_input_label">बोलने के लिए टेक्स्ट लिखें</string>
+    <string name="voice_input_placeholder">जो भी आप AI की आवाज़ में सुनना चाहते हैं, यहाँ लिखें…</string>
+    <string name="voice_sample_1">नमस्ते! मैं फ्यूचर ए आई हूँ, आपका स्मार्ट पर्सनल असिस्टेंट।</string>
+    <string name="voice_sample_2">Welcome to Future AI. Let us build something extraordinary together.</string>
+    <string name="voice_speed_label">बोलने की गति (Speed)</string>
+    <string name="voice_pitch_label">आवाज़ का टोन (Pitch)</string>
+    <string name="voice_speak_button">आवाज़ सुनें</string>
+    <string name="voice_stop_button">आवाज़ रोकें</string>
+    <string name="voice_polish_button">Gemini से वॉइस स्क्रिप्ट सुधारें</string>
+    <string name="voice_polishing">स्क्रिप्ट सुधारी जा रही है…</string>
+    <string name="voice_tts_not_ready">इस डिवाइस पर Google Text-to-Speech इंजन उपलब्ध नहीं हो पाया।</string>
+    <string name="voice_tts_fallback_lang">चुनी गई भाषा का वॉइस पैक डिवाइस पर नहीं मिला, इसलिए डिफ़ॉल्ट अंग्रेज़ी आवाज़ चलाई जा रही है।</string>
+
+    <!-- Step 6.4: AI Image Generator -->
+    <string name="cd_generated_image">AI द्वारा बनाई गई फोटो</string>
+    <string name="image_screen_title">AI Image Studio</string>
+    <string name="image_screen_subtitle">Gemini Image Model से फोटो बनाएँ</string>
+    <string name="image_billing_note">नोट: Gemini इमेज जनरेशन मॉडल के लिए Firebase Blaze (Pay-as-you-go) प्लान की आवश्यकता होती है। Prompt सुधारना फ्री-टियर मॉडल से चलता है।</string>
+    <string name="image_style_heading">फोटो का स्टाइल चुनें</string>
+    <string name="image_style_futuristic">Futuristic</string>
+    <string name="image_style_realistic">Realistic</string>
+    <string name="image_style_3d">3D Art</string>
+    <string name="image_style_anime">Anime</string>
+    <string name="image_style_painting">Painting</string>
+    <string name="image_prompt_label">कैसी फोटो बनानी है? लिखें</string>
+    <string name="image_prompt_placeholder">उदाहरण: रात में चमकते शहर के ऊपर उड़ता हुआ नीला AI रोबोट…</string>
+    <string name="image_sample_1">भविष्य का नीला चमकता हुआ शहर और AI रोबोट</string>
+    <string name="image_sample_2">सूर्यास्त के समय हिमालय की बर्फीली चोटियाँ</string>
+    <string name="image_sample_3">अंतरिक्ष में चमकता हुआ क्रिस्टल ड्रैगन</string>
+    <string name="image_generate_button">AI फोटो बनाएँ</string>
+    <string name="image_generating">AI फोटो बना रहा है…</string>
+    <string name="image_enhance_prompt_button">Gemini से Prompt बेहतर बनाएँ</string>
+    <string name="image_enhancing_prompt">Prompt सुधारा जा रहा है…</string>
+    <string name="image_idle_hint">ऊपर कोई आइडिया लिखें और “AI फोटो बनाएँ” बटन दबाएँ।</string>
+    <string name="image_loading_detail">AI आपकी फोटो तैयार कर रहा है (30–60 सेकंड लग सकते हैं)…</string>
+    <string name="image_save_button">गैलरी में सेव करें</string>
+    <string name="image_saved_gallery">फोटो गैलरी (Pictures/FutureAI) में सेव हो गई!</string>
+    <string name="image_save_failed">फोटो सेव करने में समस्या आई।</string>
+
+    <!-- Step 6.5: AI Video & AI Music Studio -->
+    <string name="video_screen_title">AI Video Studio</string>
+    <string name="video_screen_subtitle">Google Veo प्रॉम्प्ट और स्टोरीबोर्ड डायरेक्टर</string>
+    <string name="video_veo_honest_note">पारदर्शी जानकारी: Google Veo की सीधी वीडियो रेंडरिंग अभी Android Firebase AI Logic SDK में उपलब्ध नहीं है (इसके लिए अलग Paid सर्वर API लगती है)। यहाँ आप Gemini से Veo-ready मास्टर प्रॉम्प्ट और 4-सीन स्टोरीबोर्ड तुरंत बना सकते हैं।</string>
+    <string name="video_aspect_label">वीडियो फॉर्मेट चुनें</string>
+    <string name="video_idea_label">अपने वीडियो का आइडिया लिखें</string>
+    <string name="video_idea_placeholder">उदाहरण: भविष्य के नीले शहर में AI रोबोट की कहानी…</string>
+    <string name="video_sample_1">भविष्य के स्मार्ट शहर में उड़ती कारें और AI रोबोट</string>
+    <string name="video_sample_2">सुबह के कोहरे में हिमालय पर एक यात्री की प्रेरणादायक यात्रा</string>
+    <string name="video_generate_button">वीडियो स्टोरीबोर्ड बनाएँ</string>
+    <string name="video_generating">Gemini स्टोरीबोर्ड तैयार कर रहा है…</string>
+    <string name="video_music_mood_prefix">बैकग्राउंड म्यूज़िक:</string>
+    <string name="video_veo_prompt_heading">Google Veo Master Prompt</string>
+    <string name="video_copy_prompt">Veo Prompt कॉपी</string>
+    <string name="video_prompt_copied">Veo Prompt कॉपी हो गया!</string>
+    <string name="video_share_chooser">वीडियो स्टोरीबोर्ड शेयर करें</string>
+    <string name="video_camera_prefix">कैमरा:</string>
+    <string name="video_voiceover_prefix">वॉइसओवर:</string>
+
+    <string name="music_screen_title">AI Music Studio</string>
+    <string name="music_screen_subtitle">Gemini संगीत कंपोज़र + लाइव मेलोडी प्रीव्यू</string>
+    <string name="music_honest_note">पारदर्शी जानकारी: Google की पूर्ण ऑडियो रेंडरिंग (Lyria) अभी Android Firebase AI Logic SDK में सीधे उपलब्ध नहीं है। यहाँ Gemini से असली लिरिक्स, कॉर्ड्स, BPM और सुनने योग्य मेलोडी धुन तैयार होती है।</string>
+    <string name="music_genre_label">संगीत का स्टाइल चुनें</string>
+    <string name="music_genre_bollywood">Bollywood</string>
+    <string name="music_genre_lofi">Lo-Fi Chill</string>
+    <string name="music_genre_cyberpunk">Cyberpunk</string>
+    <string name="music_genre_acoustic">Acoustic</string>
+    <string name="music_input_label">गाने या धुन का विषय लिखें</string>
+    <string name="music_input_placeholder">उदाहरण: बारिश की शाम और सुकून भरी धुन…</string>
+    <string name="music_sample_1">सपनों की उड़ान और नई सुबह पर जोश भरा गीत</string>
+    <string name="music_sample_2">रात के तारों के नीचे शांत Lo-Fi धुन</string>
+    <string name="music_generate_button">संगीत और धुन बनाएँ</string>
+    <string name="music_generating">Gemini संगीत तैयार कर रहा है…</string>
+    <string name="music_chords_prefix">कॉर्ड्स:</string>
+    <string name="music_play_melody">मेलोडी धुन सुनें</string>
+    <string name="music_stop_melody">धुन रोकें</string>
+    <string name="music_lyrics_heading">गाने के बोल (Lyrics)</string>
+    <string name="music_copied_toast">संगीत और बोल कॉपी हो गए!</string>
+    <string name="music_share_chooser">संगीत कंपोज़िशन शेयर करें</string>
+
+    <!-- Step 7 & 8: Google Sign-In, Profile, Cloud Chat History, Premium & Settings -->
+    <string name="home_greeting_named">नमस्ते, %1$s</string>
+    <string name="cd_delete_history">हिस्ट्री हटाएँ</string>
+
+    <string name="auth_title">FUTURE AI में आपका स्वागत है</string>
+    <string name="auth_subtitle">अपनी चैट हिस्ट्री, प्रोफ़ाइल और सभी AI टूल्स सुरक्षित रखने के लिए Google अकाउंट से साइन इन करें।</string>
+    <string name="auth_benefit_history">आपकी AI चैट हिस्ट्री क्लाउड में सुरक्षित रहती है</string>
+    <string name="auth_benefit_tools">7 लाइव AI टूल्स एक ही ऐप में</string>
+    <string name="auth_benefit_privacy">आपका डेटा केवल आपके Google अकाउंट तक सीमित</string>
+    <string name="auth_google_button">Google से साइन इन करें</string>
+    <string name="auth_signing_in">Google से साइन इन हो रहा है…</string>
+    <string name="auth_footer_note">Google Credential Manager और Firebase Security द्वारा सुरक्षित</string>
+
+    <string name="profile_cloud_synced">Cloud Synced</string>
+    <string name="profile_saved_chats_count">%1$d सेव की गई चैट्स</string>
+
+    <string name="history_screen_title">Chat History</string>
+    <string name="history_screen_subtitle">Firebase Firestore • Cloud Sync</string>
+    <string name="history_loading">आपकी चैट हिस्ट्री लोड हो रही है…</string>
+    <string name="history_empty_title">अभी कोई सेव चैट नहीं है</string>
+    <string name="history_empty_desc">AI Chat में पहला सवाल पूछें — आपकी हर बातचीत अपने-आप यहाँ क्लाउड में सेव हो जाएगी।</string>
+    <string name="history_start_chat_cta">AI Chat शुरू करें</string>
+    <string name="history_prompt_label">आपका सवाल</string>
+    <string name="history_reply_label">FUTURE AI का उत्तर</string>
+    <string name="history_delete">हटाएँ</string>
+    <string name="history_copied_toast">चैट कॉपी हो गई!</string>
+
+    <string name="premium_screen_title">Premium Plan</string>
+    <string name="premium_screen_subtitle">FUTURE AI प्लान और सुविधाएँ</string>
+    <string name="premium_transparent_note">पारदर्शी जानकारी: इस ऐप में अभी कोई भी पेड बिलिंग या पेमेंट चालू नहीं है। नीचे दिया गया Pro प्लान केवल आने वाले फीचर्स का प्रीव्यू है — अभी आपका Free Starter प्लान पूरी तरह सक्रिय है।</string>
+    <string name="premium_free_title">Free Starter</string>
+    <string name="premium_badge_active">सक्रिय (Active)</string>
+    <string name="premium_free_price">₹0 / हमेशा फ्री</string>
+    <string name="premium_free_feat_1">लाइव Gemini AI Chat और Cloud History</string>
+    <string name="premium_free_feat_2">AI Content Writer (कहानी, शायरी, स्क्रिप्ट)</string>
+    <string name="premium_free_feat_3">13+ भाषाओं में AI Translator और Google Voice</string>
+    <string name="premium_free_feat_4">AI Video स्टोरीबोर्ड और AI Music मेलोडी स्टूडियो</string>
+    <string name="premium_pro_title">FUTURE AI Pro</string>
+    <string name="premium_badge_preview">Preview</string>
+    <string name="premium_pro_desc">भविष्य के अपडेट्स में जोड़े जाने वाले एडवांस क्रिएटर फीचर्स:</string>
+    <string name="premium_pro_feat_1">हाई-रेज़ोल्यूशन AI इमेज और प्राथमिकता स्पीड</string>
+    <string name="premium_pro_feat_2">क्लाउड वीडियो रेंडरिंग और प्रो ऑडियो एक्सपोर्ट</string>
+    <string name="premium_pro_feat_3">अनलिमिटेड लंबी चैट हिस्ट्री बैकअप</string>
+    <string name="premium_pro_feat_4">कस्टम AI पर्सनैलिटी और वॉइस क्लोनिंग विकल्प</string>
+    <string name="premium_use_free_cta">फ्री AI Chat इस्तेमाल करें</string>
+
+    <string name="settings_screen_title">Settings</string>
+    <string name="settings_screen_subtitle">क्लाउड सिंक की गई सेटिंग्स</string>
+    <string name="settings_profile_section">आपकी प्रोफ़ाइल और पसंद</string>
+    <string name="settings_name_label">आपका नाम (Display Name)</string>
+    <string name="settings_lang_label">पसंदीदा भाषा (Preferred Language)</string>
+    <string name="settings_glow_title">Neon Glow इफ़ेक्ट</string>
+    <string name="settings_glow_desc">होम लोगो पर फ्यूचरिस्टिक पल्स एनिमेशन चालू रखें</string>
+    <string name="settings_save_button">सेटिंग्स क्लाउड में सेव करें</string>
+    <string name="settings_saving">सेटिंग्स सेव हो रही हैं…</string>
+    <string name="settings_app_section">ऐप और अकाउंट विकल्प</string>
+    <string name="settings_signout_button">Sign Out (लॉगआउट करें)</string>
+    <string name="settings_signout_dialog_title">लॉगआउट करना चाहते हैं?</string>
+    <string name="settings_signout_dialog_desc">आपकी चैट हिस्ट्री और सेटिंग्स क्लाउड में सुरक्षित रहेंगी। आप कभी भी फिर से Google से साइन इन कर सकते हैं।</string>
+    <string name="settings_signout_confirm">हाँ, लॉगआउट करें</string>
+    <string name="settings_signout_cancel">रद्द करें</string>
+    <string name="settings_version_footer">FUTURE AI • v1.0 • Firebase Powered</string>
+
+    <!-- Advanced Voice Welcome Assistant: Step 1 (Design & Robot Animation) -->
+    <string name="cd_voice_assistant_mic">AI वॉइस माइक</string>
+    <string name="cd_toggle_voice">AI आवाज़ ON या OFF करें</string>
+    <string name="voice_assist_voice_on">Male Voice ON</string>
+    <string name="voice_assist_voice_off">Voice OFF</string>
+    <string name="voice_assist_open_app">ऐप में जाएँ</string>
+    <string name="voice_assist_lang_badge">Auto भाषा: हिंदी • English • भोजपुरी</string>
+    <string name="voice_assist_state_speaking">FUTURE AI बोल रहा है…</string>
+    <string name="voice_assist_state_listening">AI आपकी बात सुन रहा है…</string>
+    <string name="voice_assist_state_thinking">FUTURE AI सोच रहा है…</string>
+    <string name="voice_assist_state_ready">AI Male Voice Assistant तैयार है</string>
+    <string name="voice_assist_greeting_en">Welcome to FUTURE AI!</string>
+    <string name="voice_assist_greeting_hi">मैं आपकी क्या मदद कर सकता हूँ?</string>
+    <string name="voice_assist_design_subtitle">आपका AI Robot एनिमेशन और वॉइस इंटरफ़ेस तैयार है। अगले Step में इसमें असली Google आवाज़ और माइक जुड़ेगा।</string>
+    <string name="voice_assist_chip_hi">हिंदी</string>
+    <string name="voice_assist_chip_en">English</string>
+    <string name="voice_assist_chip_bho">भोजपुरी</string>
+    <string name="voice_assist_tap_to_speak">बोलने के लिए माइक बटन पर टैप करें</string>
+    <string name="voice_assist_tap_to_stop">सुनना रोकने के लिए फिर टैप करें</string>
+    <string name="voice_assist_enable_voice_btn">Enable Voice / स्वागत सुनें</string>
+    <string name="voice_assist_step2_mic_note">एनिमेशन टेस्ट मोड सक्रिय है! अगले Step 2 में असली Google आवाज़ और Microphone Permission जुड़ेंगी।</string>
+    <string name="voice_assist_muted_note">AI Voice बंद (OFF) कर दी गई है — अब केवल टेक्स्ट दिखेगा।</string>
+    <string name="voice_assist_enabled_note">AI Male Voice चालू (ON) है।</string>
+
+    <!-- Advanced Voice Welcome Assistant: Step 2 (Real Google TTS + STT + Mic Permission) -->
+    <string name="voice_assist_live_subtitle">असली Google Male Voice और माइक तैयार है! नीचे Mic दबाकर बोलें या “स्वागत सुनें” टैप करें।</string>
+    <string name="voice_assist_user_said_label">आपने कहा (Speech-to-Text)</string>
+    <string name="voice_assist_ai_reply_label">FUTURE AI (Text + Voice)</string>
+    <string name="voice_assist_listening_live">सुन रहा हूँ… कृपया साफ आवाज़ में बोलें</string>
+    <string name="voice_assist_mic_permission_denied">माइक से बात करने के लिए Microphone Permission ज़रूरी है। कृपया Allow करें।</string>
+    <string name="voice_assist_stt_unavailable">इस डिवाइस पर Google Speech Recognition उपलब्ध नहीं है। कृपया Google ऐप अपडेट करें।</string>
+    <string name="voice_assist_tts_loading">Google की प्राकृतिक आवाज़ लोड हो रही है…</string>
+    <string name="voice_assist_replay_greeting">स्वागत आवाज़ फिर सुनें</string>
+    <string name="voice_assist_stop_voice">आवाज़ रोकें</string>
+    <string name="voice_assist_step2_captured_reply">मैंने आपकी आवाज़ साफ सुनी: “%1$s”। अगले Step 3 में मैं आपकी भाषा (हिंदी, English या भोजपुरी) पहचानकर Gemini से स्मार्ट जवाब दूँगा!</string>
+
+    <!-- Advanced Voice Welcome Assistant: Step 3 (Auto Language Detection + Gemini AI) -->
+    <string name="voice_assist_greeting_en_help">How can I help you today?</string>
+    <string name="voice_assist_greeting_bho_help">रउआ बताईं, हम रउआ के का मदद कर सकीले?</string>
+    <string name="voice_assist_active_lang_badge">सक्रिय भाषा: %1$s • Auto Detect</string>
+    <string name="voice_assist_step3_ready_hint">हिंदी, English या भोजपुरी — किसी भी भाषा में बोलें या लिखें। FUTURE AI अपने-आप आपकी भाषा पहचानकर Text और Male Voice में जवाब देगा!</string>
+    <string name="voice_assist_sample_hi">AI क्या है? आसान हिंदी में बताओ</string>
+    <string name="voice_assist_sample_en">Give me one motivational quote</string>
+    <string name="voice_assist_sample_bho">का हाल बा FUTURE AI? भोजपुरी में बतावअ</string>
+    <string name="voice_assist_type_placeholder">या यहाँ हिंदी / English / भोजपुरी में लिखें…</string>
+
+    <!-- Google OAuth & Account Delete -->
+    <string name="auth_oauth_separation_note">सुरक्षा नोट: Google Login केवल आपके निजी प्रोफ़ाइल (नाम, Gmail, फोटो) और प्राइवेट Chat History के लिए है। यह Gemini सर्वर कनेक्शन से पूरी तरह अलग रहता है।</string>
+    <string name="settings_delete_account_button">Account Delete (अकाउंट हमेशा के लिए हटाएँ)</string>
+    <string name="settings_deleting_account">अकाउंट और डेटा हटाया जा रहा है…</string>
+    <string name="settings_delete_dialog_title">क्या आप अकाउंट हमेशा के लिए हटाना चाहते हैं?</string>
+    <string name="settings_delete_dialog_desc">इससे आपकी प्रोफ़ाइल और आपकी सारी सेव की गई Chat History क्लाउड से हमेशा के लिए मिट जाएगी। यह वापस नहीं आ सकेगी।</string>
+    <string name="settings_delete_confirm">हाँ, हमेशा के लिए हटाएँ</string>
+
+    <!-- Gemini Server Connection & Per-User Usage Tracking -->
+    <string name="gemini_status_title">Gemini Connection &amp; Usage</string>
+    <string name="gemini_status_subtitle">Firebase AI Logic • Server Backend</string>
+    <string name="profile_gemini_usage_count">%1$d Gemini अनुरोध ट्रैक किए गए</string>
+    <string name="gemini_security_heading">सुरक्षित Server Backend स्थिति</string>
+    <string name="gemini_check_backend">Gemini API सुरक्षित Firebase AI Logic + App Check सर्वर से जुड़ा है</string>
+    <string name="gemini_check_no_key">Frontend ऐप में कोई भी API Key नहीं रखी गई है (0 Hardcoded Keys)</string>
+    <string name="gemini_check_separate_auth">Google OAuth Login और Gemini Backend Authentication पूरी तरह अलग हैं</string>
+    <string name="gemini_check_user_scope">Usage केवल आपके अकाउंट (%1$s) के प्राइवेट रिकॉर्ड में सेव होती है</string>
+    <string name="gemini_test_button">लाइव Gemini Server कनेक्शन टेस्ट करें</string>
+    <string name="gemini_testing_now">Gemini सर्वर से कनेक्शन चेक हो रहा है…</string>
+    <string name="gemini_test_connected_badge">कनेक्टेड • %1$s (%2$d ms)</string>
+    <string name="gemini_usage_heading">आपकी निजी Gemini Usage रिपोर्ट</string>
+    <string name="gemini_usage_total_calls">कुल Gemini अनुरोध</string>
+    <string name="gemini_usage_est_tokens">अनुमानित Tokens</string>
+    <string name="gemini_usage_by_tool">टूल के अनुसार इस्तेमाल</string>
+    <string name="gemini_usage_empty_hint">अभी कोई Usage दर्ज नहीं है। ऊपर “कनेक्शन टेस्ट” दबाएँ या AI Chat / Voice Assistant का इस्तेमाल करें।</string>
+    <string name="gemini_usage_recent_title">हालिया Gemini अनुरोध लॉग</string>
+</resources>

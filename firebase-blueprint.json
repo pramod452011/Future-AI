@@ -1,0 +1,163 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Private user account profile and synced app preferences for Future AI.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "displayName": {
+          "type": "string",
+          "description": "User display name shown on profile and dashboard."
+        },
+        "email": {
+          "type": "string",
+          "description": "Google account email address."
+        },
+        "photoUrl": {
+          "type": "string",
+          "description": "Optional Google profile avatar URL."
+        },
+        "preferredLanguage": {
+          "type": "string",
+          "enum": ["Hindi", "Hinglish", "English"],
+          "description": "Preferred response language for Future AI."
+        },
+        "glowBoostEnabled": {
+          "type": "boolean",
+          "description": "Whether enhanced neon glow animations are enabled."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the profile was created."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the profile was last updated."
+        }
+      },
+      "required": [
+        "userId",
+        "displayName",
+        "email",
+        "preferredLanguage",
+        "glowBoostEnabled",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "ChatHistoryEntry": {
+      "title": "Chat History Entry",
+      "description": "Saved AI conversation exchange owned privately by a user.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "title": {
+          "type": "string",
+          "description": "Short summary title derived from the user prompt."
+        },
+        "prompt": {
+          "type": "string",
+          "description": "The user prompt submitted to Future AI."
+        },
+        "response": {
+          "type": "string",
+          "description": "The AI response returned by Gemini."
+        },
+        "toolType": {
+          "type": "string",
+          "enum": ["ai_chat", "ai_voice_assistant", "ai_writer", "ai_translator", "ai_video", "ai_music"],
+          "description": "Identifier of the Future AI tool that generated this entry."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the entry was created."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the entry was last updated."
+        }
+      },
+      "required": [
+        "userId",
+        "title",
+        "prompt",
+        "response",
+        "toolType",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "GeminiUsageEvent": {
+      "title": "Gemini Usage Event",
+      "description": "Per-user immutable audit event tracking each Gemini backend call.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the user who triggered the Gemini request."
+        },
+        "toolType": {
+          "type": "string",
+          "enum": ["ai_chat", "ai_voice_assistant", "ai_writer", "ai_translator", "ai_image", "ai_video", "ai_music", "ai_voice", "connection_test"],
+          "description": "Feature/tool that invoked the Gemini server backend."
+        },
+        "modelName": {
+          "type": "string",
+          "description": "Gemini model identifier used on the server backend."
+        },
+        "promptChars": {
+          "type": "integer",
+          "description": "Character count of the user prompt."
+        },
+        "responseChars": {
+          "type": "integer",
+          "description": "Character count of the Gemini response."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the Gemini call completed."
+        }
+      },
+      "required": [
+        "userId",
+        "toolType",
+        "modelName",
+        "promptChars",
+        "responseChars",
+        "createdAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserProfile"
+      },
+      "description": "Private user profile and synced preferences document keyed by Firebase Auth UID."
+    },
+    "/users/{userId}/chats/{chatId}": {
+      "schema": {
+        "$ref": "#/entities/ChatHistoryEntry"
+      },
+      "description": "Private cloud chat history subcollection scoped to a single authenticated user."
+    },
+    "/users/{userId}/usage/{eventId}": {
+      "schema": {
+        "$ref": "#/entities/GeminiUsageEvent"
+      },
+      "description": "Private per-user Gemini API usage tracking subcollection."
+    }
+  }
+}

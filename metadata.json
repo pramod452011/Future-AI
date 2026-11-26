@@ -1,0 +1,6 @@
+{
+  "name": "Future AI",
+  "description": "Futuristic AI assistant app featuring AI chat, creative generation, translation, voice, and profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
